@@ -307,8 +307,6 @@ img {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-}
-.team-desc {
   border-radius: 0 0 4px 4px;
 }
 
@@ -384,6 +382,7 @@ img {
 }
 .footer-wrap-all {
   display: flex;
+  align-items: baseline;
 }
 .footer-social-list {
   display: flex;
@@ -405,7 +404,7 @@ img {
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-social-icon {
